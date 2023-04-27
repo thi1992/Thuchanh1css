@@ -1,0 +1,78 @@
+*{
+    margin: 0px auto;
+}
+body{
+    background-image: linear-gradient(to right top, #38438b, #944b94, #d75a88, #ff7e71, #ffb25f, #ffeb68);
+}
+.container{
+    height: max-content;
+    width: 400px;
+    margin-top: 10em;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    /* box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #ffffff; */
+    /* box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2; */
+}
+.row{
+    display: flex;
+    margin: 5px;
+    
+}
+.row .bnt{
+    width: 90px;
+    height: 90px;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2;
+    font-size: 30px;
+    font-weight: 300;
+    color: purple;
+    background-color: white;
+}
+.row .bntsign{
+    width: 90px;
+    height: 90px;
+    border: 0px;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2;
+    font-size: 30px;
+    font-weight: 700;
+    color: green;
+    background-color: white;
+}
+.row .bntAC{
+    width: 90px;
+    height: 90px;
+    border: none;
+    border-radius: 50%;
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2;
+    font-size: 30px;
+    font-weight: 300;
+    color: #38438b;
+    background-color: #ffcc02;
+}
+.row .bntsignRe{
+    width: 180px;
+    height: 90px;
+    border: 1px;
+    border-radius: 70px;
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2;
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    background-color: purple;
+    
+}
+.viewer .input{
+    box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #e2e2e2;
+    /* box-shadow: inset 2px 2px 4px #a6a6a6, inset -2px -2px 4px #ffffff; */
+    height: 100px;
+    width: 380px;
+    border: 0px;
+    margin: 20px 0px 20px 10px;
+    border-radius: 20px;
+}
+.inputer{
+    background-color: white;
+}
